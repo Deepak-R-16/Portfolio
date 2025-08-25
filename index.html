@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepak Ravi's Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="loading">
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="terminal-loader">
+            <div class="terminal-header">
+                <span class="terminal-title">INITIALIZING SECURITY PROTOCOL...</span>
+            </div>
+            <div class="terminal-body">
+                <div class="loading-text">
+                    <span class="loading-line">[<span class="cyber-green">OK</span>] Loading Security Modules...</span>
+                    <span class="loading-line">[<span class="cyber-green">OK</span>] Initializing Firewall...</span>
+                    <span class="loading-line">[<span class="cyber-green">OK</span>] System Scan Complete. No Threats Found...</span>
+                    <span class="loading-line">[<span class="cyber-blue">INFO</span>] Welcome to Deepak's Portfolio...</span>                    
+
+                </div>
+                <div class="loading-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Matrix Background Canvas -->
+    <canvas id="matrix-canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="terminal-prompt">&gt;_</span> Deepak R 
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item active">
+                <a href="#home" class="nav-link">
+                    <i class="fas fa-home"></i> Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i> About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">
+                    <i class="fas fa-bolt"></i> Skills
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experience
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-rocket"></i> Projects
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#achievements" class="nav-link">
+                    <i class="fas fa-trophy"></i> Achievements
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-phone"></i> Contact
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="terminal-line">
+                <span class="terminal-prompt">&gt;_ deepak@cybersec:~$</span>
+            </div>
+            <h1 class="hero-title">DEEPAK R</h1>
+            <div class="hero-subtitle">
+                
+                
+            </div>
+            <p class="hero-description neon-text"><b>
+                <span class="animated-line" style="animation: none;">Cyber Security Engineer | SQL Developer | Java Developer</span><br>
+                Specializing in Red Team Operations, Penetration Testing<br>
+                Secure Application Development and Database Administration</b> 
+            </p>
+            <div class="skill-tags">
+                <span class="skill-tag neon-glow">
+                    <i class="fas fa-shield-alt"></i> Red Team
+                </span>
+                <span class="skill-tag neon-glow">
+                    <i class="fas fa-code"></i> &lt;&gt; Java
+                </span>
+                <span class="skill-tag neon-glow">
+                    <i class="fas fa-database"></i> SQL
+                </span>
+                <span class="skill-tag neon-glow">
+                    <i class="fas fa-lock"></i> Security
+                </span>
+            </div>
+            <div class="cta-buttons">
+                <a class="cta-btn" href="#contact">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+                <a class="cta-btn" href="Deepak's Resume.pdf" download target="_blank" rel="noopener">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:deepakravi685@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/deepak-ravi-12b877220" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Deepak-R-R" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i>
+                </a>
+               
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="matrix-overlay"></div>
+            <div class="desk-setup">
+                <div class="monitors">
+                    <div class="monitor left">
+                        <div class="screen">
+                            <div class="code-lines">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="info-box">
+                        <h3>Professional Summary</h3>
+                        <p>
+                            Passionate <span class="highlight">Cyber Security Engineer</span> ,<span class="highlight">SQL Developer</span> and <span class="highlight">Java Developer</span> specializing in 
+                            <span class="highlight">Red-Team Operations</span>, <span class="highlight">Penetration Testing</span>, and 
+                            <span class="highlight">Secure Application Development</span>. Proficient in <span class="highlight">Core Java</span>,<span class="highlight">Database Administration</span>, 
+                            <span class="highlight">Python</span>, and various <span class="highlight">cybersecurity tools</span>.
+                        </p>
+                        <p>
+                            Currently pursuing a <span class="highlight">B.E. in Cyber Security</span>, gaining hands-on experience in 
+                            Vulnerability Assessment and Ethical Hacking. Passionate about <span class="highlight">Defensive Security</span> 
+                            and <span class="highlight">Ethical Hacking</span>.
+                        </p>
+                        <p>
+                            I lead community security initiatives as Chapter Head of <span class="highlight">OWASP</span> at Mahendra Engineering College — Organizing
+                            Workshops, CTFs, and Webinars to promote Cyber Security Awareness.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="label">Email</span>
+                                <span class="value">deepakravi685@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">Phone</span>
+                                <span class="value">+91 93607 74941</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-sidebar">
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>B.E. Cybersecurity</h4>
+                        <p>Mahendra Engineering College</p>
+                        <p>Currently pursuing Bachelor's in Cyber Security</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Red Team</h4>
+                        <p class="specialist">Specialist</p>
+                        <p>Penetration Testing Expert</p>
+                        <p>Specialized in vulnerability assessments and security testing</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Based in India</h4>
+                        <p class="specialist">Available for Remote Work</p>
+                        <p>Open to opportunities worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Comprehensive expertise in Cyber Security, Programming, and Security Tools</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cyber Security</h3>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Penetration <br>Testing</span>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Vulnerability <br>Assessment</span>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Red Team <br>Operations</span>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Network <br> Security</span>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Web App <br>Security</span>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Mobile App <br>Security</span>
+                        <div class="progress-bar"><div class="progress-fill" style="width: 75%"></div></div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Core Java</span>
+                        <div class="progress-bar"><div class="progress-fill yellow" style="width: 90%"></div></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="progress-bar"><div class="progress-fill yellow" style="width: 85%"></div></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="progress-bar"><div class="progress-fill yellow" style="width: 80%"></div></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Bash Scripting</span>
+                        <div class="progress-bar"><div class="progress-fill yellow" style="width: 85%"></div></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <div class="progress-bar"><div class="progress-fill yellow" style="width: 90%"></div></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="progress-bar"><div class="progress-fill yellow" style="width: 80%"></div></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Security Tools</h3>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Kali Linux</span>
+                        <div class="progress-bar"><div class="progress-fill red" style="width: 95%"></div></div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Nmap</span>
+                        <div class="progress-bar"><div class="progress-fill red" style="width: 90%"></div></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Burp Suite</span>
+                        <div class="progress-bar"><div class="progress-fill red" style="width: 88%"></div></div>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Wireshark</span>
+                        <div class="progress-bar"><div class="progress-fill red" style="width: 85%"></div></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-lock"></i>
+                        <h3>Cryptography</h3>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">AES Encryption</span>
+                        <div class="progress-bar"><div class="progress-fill blue" style="width: 85%"></div></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">RSA</span>
+                        <div class="progress-bar"><div class="progress-fill blue" style="width: 80%"></div></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SHA-256</span>
+                        <div class="progress-bar"><div class="progress-fill blue" style="width: 82%"></div></div>
+                        <span class="skill-percentage">82%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SSL/TLS</span>
+                        <div class="progress-bar"><div class="progress-fill blue" style="width: 78%"></div></div>
+                        <span class="skill-percentage">78%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-subtitle">Professional training and industry exposure in Cyber Security</p>
+    <div class="experience-timeline">
+    <div class="experience-card">
+    <div class="experience-icon"><i class="fas fa-building"></i></div>
+    <div class="experience-content">
+    <h3>Ozone Cyber Security</h3>
+    <span class="experience-date">Jan 2025 – Feb 2025</span>
+    <p class="experience-role">Cyber Security Intern</p>
+    <ul>
+    <li>Hands-on training in <strong>Penetration Testing</strong> and <strong>Vulnerability Assessments</strong>.</li>
+    <li>Specialized in <strong>Mobile Application Security</strong> and Detection of <strong>Injection Attacks</strong>.</li>
+    <li>Simulated <strong> Cyber Threats </strong>for <strong> Enterprise Security Testing.</strong></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Showcasing innovative Cyber Security Solutions and Secure Application Development</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-lock"></i>
+                            <h3>Cryptorix - The Cipher Script Engine</h3>
+                        </div>
+                        <div class="project-tags">
+                            <span class="status-tag completed">Completed</span>
+                            <span class="award-tag"><i class="fas fa-trophy"></i> Award Winner</span>
+                        </div>
+                    </div>
+                    <p class="project-category">Cyber Security</p>
+                    <p class="project-description">
+                        Award-winning Encryption Engine that encrypts source code and executes directly from memory with zero-trace execution. Protects code from reverse engineering and unauthorized access.
+                    </p>
+                    <div class="project-tech">
+                        <h4>Technologies Used</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AES Encryption</span>
+                            <span class="tech-tag">RSA</span>
+                            <span class="tech-tag">Memory Management</span>
+                            <span class="tech-tag">Cryptography</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Zero-trace execution</li>
+                            <li>Memory-Based Code Execution</li>
+                            <li>Advanced Encryption Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> 100% Accuracy</li>
+                            <li><i class="fas fa-award"></i> Best Paper Award</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Red Team Assessment Framework</h3>
+                        </div>
+                        <div class="project-tags">
+                            <span class="status-tag in-progress">In Progress</span>
+                        </div>
+                    </div>
+                    <p class="project-category">Penetration Testing</p>
+                    <p class="project-description">
+                        Comprehensive Penetration Testing framework for web applications with automated vulnerability detection and reporting capabilities.
+                    </p>
+                    <div class="project-tech">
+                        <h4>Technologies Used</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Burp Suite</span>
+                            <span class="tech-tag">OWASP Top 10</span>
+                            <span class="tech-tag">SQL Injection</span>
+                            <span class="tech-tag">XSS</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Automated vulnerability scanning</li>
+                            <li>Custom payload generation</li>
+                            <li>Comprehensive reporting</li>
+                        </ul>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> 100% Accuracy</li>
+                            <li><i class="fas fa-bolt"></i> 75% Faster Testing</li>
+                            <li><i class="fas fa-file-alt"></i> Detailed Reports</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-code"></i> View Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <p class="section-subtitle">Recognitions, Contributions, and Leadership roles</p>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Awards & Recognition</h3>
+                    <p>Best Paper Award — Presented <strong>Cryptorix: The Cipher Script Engine</strong></p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>OWASP Chapter Head</h3>
+                    <p>Chapter Head – OWASP Mahendra Engineering College (Workshops, Webinars, CTFs)</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Student Coordinator</h3>
+                    <p>Student Coordinator – Catch Coding Club (Coding events & student participation)</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Public Speaker</h3>
+                    <p>Delivered Sessions on Malware Defense, Wi‑Fi Deauth, Phishing, and CTFs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to Collaborate on Cyber Security projects or discuss opportunities? Let's connect and build something secure together.</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always excited to discuss Cyber Security challenges, collaborate on projects, or explore new opportunities. Whether you need a security assessment, want to discuss a project, or just want to chat about the latest in cybersecurity, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <span class="label">Email</span>
+                                <span class="value">deepakravi685@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <span class="label">Phone</span>
+                                <span class="value">+91 93607 74941</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <span class="label">Location</span>
+                                <span class="value">India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" action="https://formsubmit.co/deepakravi685@gmail.com" method="POST" autocomplete="off">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="Portfolio Contact - Deepak Ravi">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project or how I can help..." maxlength="500" required></textarea>
+                            <div class="char-counter">
+                                <span id="charCount">0</span>/500 characters
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn neon-glow">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">Sending...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <span class="terminal-prompt">&gt;_</span> Deepak R
+                    </div>
+                    <p>
+                        Cybersecurity Engineer & Java Developer passionate about building secure digital solutions and protecting against cyber threats.
+                    </p>
+                    <p><i class="fas fa-circle"></i> Secured by design.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <p>deepakravi685@gmail.com</p>
+                    <p>+91 93607 74941</p>
+                    <p>Available for remote work</p>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2025 Deepak R. Built with ❤️ for Cyber Security
+                </div>
+                <div class="status">
+                    Status: <i class="fas fa-circle"></i> Available for hire
+                </div>
+            </div>
+            <div class="terminal-output">
+                <div class="terminal-line">
+                    <span class="terminal-prompt">&gt;_ deepak@cybersec:~$</span> whoami
+                </div>
+                <div class="terminal-response">
+                    Cyber Security Engineer | Java Developer | Red Team Specialist
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Contact Form, Boot Loader and Email -->
+    <script>
+        // Boot Loader: show blank screen with loader, then reveal page
+        window.addEventListener('load', function() {
+            const loader = document.getElementById('loading-screen');
+            document.body.classList.add('loading');
+            // Ensure loader is visible for a moment
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                    document.body.classList.remove('loading');
+                }, 600);
+            }, 3800);
+        });
+
+        // FormSubmit contact form handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const charCount = document.getElementById('charCount');
+            const messageTextarea = document.getElementById('message');
+            const submitBtn = document.querySelector('.submit-btn');
+            const btnText = submitBtn.querySelector('.btn-text');
+            const btnLoading = submitBtn.querySelector('.btn-loading');
+
+            // Character counter for message
+            messageTextarea.addEventListener('input', function() {
+                const remaining = 500 - this.value.length;
+                charCount.textContent = remaining;
+                
+                if (remaining < 50) {
+                    charCount.style.color = '#ff6b6b';
+                } else if (remaining < 100) {
+                    charCount.style.color = '#ffaa00';
+                } else {
+                    charCount.style.color = '#ccc';
+                }
+            });
+
+            // Form submission with FormSubmit
+            contactForm.addEventListener('submit', function(e) {
+                // Show loading state
+                btnText.style.display = 'none';
+                btnLoading.style.display = 'inline';
+                submitBtn.disabled = true;
+                
+                // FormSubmit will handle the submission automatically
+                // The form will redirect to LinkedIn after successful submission
+            });
+
+            // Simple notification function for any other interactions
+            function showNotification(message, type) {
+                // Remove existing notifications
+                const existingNotification = document.querySelector('.notification');
+                if (existingNotification) {
+                    existingNotification.remove();
+                }
+
+                // Create simple notification
+                const notification = document.createElement('div');
+                notification.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: ${type === 'success' ? '#00ff00' : '#ff0000'};
+                    color: #000;
+                    padding: 1rem 1.5rem;
+                    border-radius: 8px;
+                    box-shadow: 0 0 20px ${type === 'success' ? 'rgba(0, 255, 0, 0.5)' : 'rgba(255, 0, 0, 0.5)'};
+                    z-index: 10000;
+                    max-width: 400px;
+                    font-family: 'Courier New', monospace;
+                    font-weight: bold;
+                `;
+                notification.textContent = message;
+
+                // Add to page
+                document.body.appendChild(notification);
+
+                // Auto remove after 4 seconds
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.remove();
+                    }
+                }, 4000);
+            }
+        });
+
+        // Mobile Navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            // Toggle mobile menu
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+                document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+            });
+
+            // Close mobile menu when clicking on a link
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Smooth scrolling for navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        const offsetTop = targetSection.offsetTop - 80; // Account for fixed navbar
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+
+        // Intersection Observer to add .in-view for line-by-line reveal
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const animatedContainers = document.querySelectorAll('.skill-category, .experience-card, .project-card, .achievement-card');
+            animatedContainers.forEach((el) => observer.observe(el));
+        });
+
+        // Performance optimization: Lazy loading for images
+        document.addEventListener('DOMContentLoaded', function() {
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.classList.remove('lazy');
+                            imageObserver.unobserve(img);
+                        }
+                    });
+                });
+
+                document.querySelectorAll('img[data-src]').forEach(img => {
+                    imageObserver.observe(img);
+                });
+            }
+        });
+
+        // Touch gesture support for mobile
+        document.addEventListener('DOMContentLoaded', function() {
+            let touchStartX = 0;
+            let touchEndX = 0;
+
+            document.addEventListener('touchstart', function(e) {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+
+            document.addEventListener('touchend', function(e) {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            });
+
+            function handleSwipe() {
+                const swipeThreshold = 50;
+                const diff = touchStartX - touchEndX;
+
+                if (Math.abs(diff) > swipeThreshold) {
+                    if (diff > 0) {
+                        // Swipe left - could be used for navigation
+                        console.log('Swiped left');
+                    } else {
+                        // Swipe right - could be used for navigation
+                        console.log('Swiped right');
+                    }
+                }
+            }
+        });
+
+        // Matrix Rain Effect
+        document.addEventListener('DOMContentLoaded', function() {
+            const canvas = document.getElementById('matrix-canvas');
+            const ctx = canvas.getContext('2d');
+
+            // Set canvas size
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+
+            // Matrix characters (mix of Japanese katakana, numbers, and symbols)
+            const matrixChars = 'ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[]{}|;:,.<>?';
+            const charArray = matrixChars.split('');
+
+            // Matrix rain drops
+            const drops = [];
+            const fontSize = 14;
+            const columns = Math.floor(canvas.width / fontSize);
+
+            // Initialize drops
+            for (let i = 0; i < columns; i++) {
+                drops[i] = 1;
+            }
+
+            // Colors for matrix effect
+            const colors = [
+                '#00ff00', // Bright green
+                '#00cc00', // Medium green
+                '#009900', // Dark green
+                '#00ff33', // Light green
+                '#00ff66'  // Very light green
+            ];
+
+            function drawMatrix() {
+                // Semi-transparent black overlay for fade effect
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Draw matrix characters
+                ctx.font = fontSize + 'px monospace';
+                
+                for (let i = 0; i < drops.length; i++) {
+                    // Random character
+                    const char = charArray[Math.floor(Math.random() * charArray.length)];
+                    
+                    // Random color from the green palette
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    ctx.fillStyle = color;
+                    
+                    // Draw character
+                    ctx.fillText(char, i * fontSize, drops[i] * fontSize);
+                    
+                    // Add glow effect
+                    ctx.shadowColor = color;
+                    ctx.shadowBlur = 5;
+                    
+                    // Move drop down
+                    if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                        drops[i] = 0;
+                    }
+                    drops[i]++;
+                }
+                
+                // Reset shadow
+                ctx.shadowBlur = 0;
+                
+                // Continue animation
+                requestAnimationFrame(drawMatrix);
+            }
+
+            // Start the matrix effect
+            drawMatrix();
+        });
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
